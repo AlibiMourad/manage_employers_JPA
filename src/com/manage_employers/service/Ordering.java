@@ -7,7 +7,7 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 import javax.persistence.Query;
 
-import com.manage_employers.Entity.Employee;
+import com.manage_employers.entity.Employee;
 
 public class Ordering {
 

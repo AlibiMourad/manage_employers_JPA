@@ -1,4 +1,4 @@
-package com.manage_employers.Entity;
+package com.manage_employers.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

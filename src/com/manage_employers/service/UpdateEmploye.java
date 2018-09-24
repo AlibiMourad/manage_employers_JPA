@@ -4,7 +4,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
-import com.manage_employers.Entity.Employee;
+import com.manage_employers.entity.Employee;
 
 
 public class UpdateEmploye {

@@ -7,8 +7,11 @@
    
    <persistence-unit name="Eclipselink_JPA" transaction-type="RESOURCE_LOCAL">
    
-      <class>com.manage_employers.Entity.Employee</class>
-
+      <class>com.manage_employers.entity.Employee</class>
+      <class>com.manage_employers.entity.TeachingStaff</class>
+	  <class>com.manage_employers.entity.NonTeachingStaff</class>
+	  	  <class>com.manage_employers.entity.Staff</class>
+	  
       <properties>
          <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/jpadb"/>
          <property name="javax.persistence.jdbc.user" value="root"/>
